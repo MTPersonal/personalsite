@@ -1,0 +1,54 @@
+/* This file is written by MT */
+/* Creation date: Jan 03, 2021 */
+/* Previous edit: Jan 04, 2021 */
+
+/* empty all the internal and external margins */
+* {
+    margin: 0;
+    padding: 0;
+    /* css3 box model */
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #3f5263; */
+    /* background-color: #303030; */
+    background-color: rgb(230,230,230);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Remove Italic fonts */
+em,
+i {
+    font-style: normal
+}
+
+/* Remove dot in front of li */
+li {
+    list-style: none
+}
+
+img {
+    /* border 0 to compatible with lower version broswer */
+    border:0;
+    /* remove the white gap below an image */
+    vertical-align: middle
+}
+
+button {
+    /* change the cursor shape to a hand shape when the cursor goes over button */
+    cursor: pointer
+}
+
+/* clear floating */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
