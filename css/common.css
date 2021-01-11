@@ -1,6 +1,19 @@
 /* This file is written by MT */
 /* Creation date: Jan 03, 2021 */
-/* Previous edit: Jan 04, 2021 */
+/* Previous edit: Jan 11, 2021 */
+
+/* Declaring text symbol. Be careful with the change of directory*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
 
 /* central portion */
 .w {
@@ -9,6 +22,7 @@
 }
 
 
+/* style for overhead section */
 .overhead {
     height: 30px;
     line-height: 30px;
@@ -20,10 +34,39 @@
     font-weight: 700;
 }
 
+/* style for go-to-top button */
+.totop {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    margin-left: 650px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+    color: #858585;
+    background-color: rgb(220,220,220);
+}
+
+.totop::after {
+    content: "\e921";
+    font-family: 'icomoon';
+}
+
 /* header construction */
 .header {
     position: relative;
     height: 105px;
+}
+
+.stick {
+    /* sticky position */
+    position: sticky;
+    top: 0;
+    background-color: rgb(230,230,230);
 }
 
 .logo {

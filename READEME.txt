@@ -7,3 +7,5 @@ Logs:
 2021-Jan-03: First commit: Creation of index file and folders of the website. Made the logo icon of the website.
 
 2021-Jan-04: Finishing the first version of the index.html (front page)
+
+2020-Jan-11: Finishing the first version of the projects.html (interests/projects page)

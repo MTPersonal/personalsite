@@ -1,0 +1,94 @@
+/* This file is written by MT */
+/* Creation date: Jan 09, 2021 */
+/* Previous edit: Jan 11, 2021 */
+
+
+/* style for the main body */
+.main {
+    /* height: 3000px; */
+    /* background-color: pink; */
+    margin: 50px 0 50px 0;
+    color: #858585;
+}
+
+.main_description {
+    /* padding: 0 70px 150px 70px; */
+    padding: 0 0 100px 0;
+}
+
+.main_description h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #858585;
+    line-height: 28px;
+    text-align: center;
+}
+
+.main_description p {
+    font-size: 20px;
+    line-height: 175%;
+}
+
+
+/* style of project blocks */
+
+.main_block {
+    margin-bottom: 150px;
+    padding-top: 50px;
+    border-top: 1px dashed #858585;
+}
+
+.main_block video {
+    width: 100%;
+}
+
+.main_center {
+    margin-bottom: 50px;
+}
+
+.main_center h2,
+.main_left h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #858585;
+    line-height: 28px;
+    text-align: center;
+}
+
+.main_left {
+    float: left;
+    width: 500px;
+}
+
+.main_left a {
+    display: block;
+}
+
+.main_left a img {
+    width: 100%;
+}
+
+.main_right {
+    float: right;
+    width: 600px;
+}
+
+.main_right h3 {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.main_right ul>li {
+    line-height: 40px;
+}
+
+.main_right .publication a,
+.publication i {
+    padding-left: 1em;
+    color: #858585;
+}
+
+/* .main_right .publication .thesis {
+    padding-left: 1em;
+    color: #cacaca;
+} */
