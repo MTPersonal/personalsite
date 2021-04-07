@@ -9,3 +9,5 @@ Logs:
 2021-Jan-04: Finishing the first version of the index.html (front page)
 
 2020-Jan-11: Finishing the first version of the projects.html (interests/projects page)
+
+2021-Apr-07: Added RS paper link
